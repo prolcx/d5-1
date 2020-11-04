@@ -1,0 +1,21 @@
+#search {
+width: 100%;
+}
+
+#imgurl{
+font-style: oblique;
+}
+
+#articleTitle {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#url {
+    position: absolute;
+    right: 0px;
+}
+
+#category {
+    width: 100%;
+    }

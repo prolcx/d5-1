@@ -1,0 +1,56 @@
+
+<form method="POST" action="/result">
+    <div class="row">
+        <div class="col">
+            <div class="form-search">
+                <label for="search"><h2>News Search</h2></label><br>
+                <input type="text" name="search" class="form-search" id="search" placeholder="Placeholder">
+            </div>
+            <div class="form-country">
+                <div class="row">
+                    <div class="col">
+                        <input type="radio" name="country" id="us" value="us" class="form-country">
+                        <img src="/US.png" alt=""><br>
+
+                        <input type="radio" name="country" id="sg" value="sg" class="form-country">
+                        <img src="/SG.png" alt=""><br>
+                    </div>
+    
+                    <div class="col">
+                        <input type="radio" name="country" id="eg" value="eg" class="form-country">
+                        <img src="/EG.png" alt=""><br>
+
+                        <input type="radio" name="country" id="jp" value="jp" class="form-country">
+                        <img src="/JP.png" alt=""><br>
+                    </div>
+
+                    <div class="col">
+                        <input type="radio" name="country" id="fr" value="fr" class="form-country">
+                        <img src="/FR.png" alt=""><br>
+
+                        <input type="radio" name="country" id="cn" value="cn" class="form-country">
+                        <img src="/CN.png" alt=""><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-category">
+                <label for="category" class="form-category">
+                    <select name="category" id="category">
+                        <option value="business">Business</option>
+                        <option value="entertainment">Entertainment</option>
+                        <option value="general">General</option>
+                        <option value="health">Health</option>
+                        <option value="science">Science</option>
+                        <option value="sport">Sport</option>
+                        <option value="technology">Technology</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="justify-content-end">
+                <button type="submit" class="btn btn-success">Search</button>
+            </div>
+        </div>
+    </div>
+</form>
